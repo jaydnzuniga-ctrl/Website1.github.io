@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">My Portfolio</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="movies.html">Favorite Movies</a>
+        <a href="music.html">Favorite Music</a>
+        <a href="projects.html">My Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Welcome</h2>
+      <p>Hello! This is my portfolio site. Use the links in the header to learn more about me, my favorites, and my projects.</p>
+    </section>
+
+    <section>
+      <h2>Quick highlights</h2>
+      <ul>
+        <li>Short bio or motto goes here.</li>
+        <li>What you want people to know first.</li>
+        <li>Contact details or social links (add as you like).</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> My Portfolio</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
