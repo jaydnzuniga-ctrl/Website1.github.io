@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Favorite Movies — My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">My Portfolio</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="movies.html">Favorite Movies</a>
+        <a href="music.html">Favorite Music</a>
+        <a href="projects.html">My Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Favorite Movies</h2>
+    <ol>
+      <li>Avengers Endgame — Epic conclusion to the Infinity saga with great action and emotional moments.</li>
+      <li>Sinners — The music and writing of the movie made everything come together in this horror thriller.</li>
+      <li>Spiderman Across the spiderverse — The art and animation are intense but in a good way along good theatrical music and it being about my favorite marvel character.</li>
+      <li>How to train your dragon — A heartwarming story about the bond between a young Viking and his dragon. </li>
+      <li>Revenge of the sith - The dark and emotional conclusion to the prequel trilogy, showcasing Anakin's transformation into Darth Vader.</li>
+    </ol>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> My Portfolio</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
